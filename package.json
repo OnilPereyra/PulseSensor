@@ -1,0 +1,34 @@
+{
+  "name": "pulsesensor",
+  "version": "0.0.0",
+  "description": "PulseSensor in Node for Tessel",
+  "main": "index.js",
+  "scripts": {
+    "test": "tessel run test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Frijol/PulseSensor.git"
+  },
+  "keywords": [
+    "pulse",
+    "pulsesensor",
+    "tessel",
+    "biosensing",
+    "biometrics"
+  ],
+  "hardware": [
+    "./examples",
+    "./test"
+  ],
+  "author": "Kelsey Breseman <ifoundthemeaningoflife@gmail.com> (http://ifoundthemeaningoflife.com/)",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/Frijol/PulseSensor/issues"
+  },
+  "homepage": "https://github.com/Frijol/PulseSensor",
+  "devDependencies": {
+    "async": "^0.9.0",
+    "tinytap": "^0.2.0"
+  }
+}
